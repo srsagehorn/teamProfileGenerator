@@ -41,16 +41,25 @@ function init() {
     //   create repective objects depending on role and push then to the employees array
     if (answers.role == "Manager") {
       employees.push(
-        new Manager(answers.name, answers.id, answers.officeNumber)
+        new Manager(
+          answers.name,
+          answers.id,
+          answers.email,
+          answers.officeNumber
+        )
       );
     }
     if (answers.role == "Intern") {
-      employees.push(new Intern(answers.name, answers.id, answers.school));
+      employees.push(
+        new Intern(answers.name, answers.id, answers.email, answers.school)
+      );
     }
     if (answers.role == "Engineer") {
-      employees.push(new Engineer(answers.name, answers.id, answers.github));
+      employees.push(
+        new Engineer(answers.name, answers.id, answers.email, answers.github)
+      );
     }
-    console.log(employees);
+    // console.log(employees);
     runAgain();
   });
 }

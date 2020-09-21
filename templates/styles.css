@@ -1,0 +1,52 @@
+body {
+  background-color: #fffaff;
+}
+
+.team-heading {
+  height: 100px;
+  background-color: #0d1f22;
+}
+
+h1 {
+  color: #fffaff;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.employee-card {
+  width: 275px;
+  margin: 20px;
+}
+
+.card {
+  box-shadow: 4px 4px 7px -1px rgba(0, 0, 0, 0.75);
+  border: none;
+}
+
+.card-header {
+  background-color: #048a81;
+  color: #fffaff;
+}
+
+.card-body {
+  background-color: #cec8bf;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+ul {
+  border: none;
+}
+
+li {
+  margin: 10px;
+}
